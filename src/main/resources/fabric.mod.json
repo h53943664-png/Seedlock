@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "seedlock",
+  "version": "${version}",
+  "name": "SeedLock",
+  "description": "/seed komutunu sadece hamsiii oyuncusuna acar.",
+  "authors": ["hamsiii"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.hamsiii.seedlock.SeedLock"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
